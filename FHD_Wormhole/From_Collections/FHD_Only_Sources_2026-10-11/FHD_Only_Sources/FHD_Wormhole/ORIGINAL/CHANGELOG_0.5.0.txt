@@ -1,0 +1,16 @@
+FHD_Wormhole 0.5.0 Alpha — accessible-world balancing
+
+- Background processing now ignores sectors the player has not revealed: SectorVisible(StarToCon(star)).
+- Dominator systems (StarOwner == 1) are excluded.
+- Klissan systems (StarCustomFaction == 'Klissan') are excluded.
+- Dominator-owned planets are also skipped defensively.
+- The mod counts only accessible equipment-shop locations and dynamically scales RNG:
+  * 1-5 shops: hull 5%, engine 2%
+  * 6-10 shops: hull 3%, engine 1.5%
+  * 11+ shops: hull 2%, engine 1%
+- 1.5% is implemented exactly as 3/200; all tiers use the same 1..200 RNG scale.
+- Accessible-shop count is refreshed once at the start of each 20-30 day background cycle, not every phase.
+- Shop item scans remain split into 12 phases, so the new balancing adds only one lightweight galaxy-level count per cycle.
+- The current EquipmentShop is still processed immediately using the latest dynamic tier.
+- NPC ships remain completely excluded.
+- AutoSearch integration and all 0.4 safety/localization fixes are retained.

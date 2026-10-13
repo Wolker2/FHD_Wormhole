@@ -1,0 +1,19 @@
+Name=FHD_Wormhole
+Author=Prolog_D
+Conflict=EvoFreeInflation,EvoNoInflation
+Dependence=
+Priority=1
+Section=FHD_MODS
+SectionEng=FHD_MODS
+Languages=Rus
+SmallDescription=Добавляет редкую функцию «Червоточина» для корпусов и двигателей.
+SmallDescription=<color=255,215,0>ver.0.5.2 Alpha</color>
+SmallDescription=<color=255,160,0>Отключение мода в середине сохранения не рекомендуется: метки оборудования сохраняются в сейве.</color>
+FullDescription=Червоточина появляется только в реально доступных магазинах открытых игроком секторов. Функция доступна штатному автопоиску по названию WH. Переход выбирается на карте галактики и имеет общую перезарядку 30 игровых дней для корпуса и двигателя.
+SmallDescription=------------------------------------  <color=0,200,255>ENG</color>  ----------------------------------------
+FullDescription= ------------------------------------  <color=0,200,255>ENG</color>  ----------------------------------------
+Languages=Eng
+SmallDescription=Adds a rare "Wormhole" feature for hulls and engines.
+SmallDescription=<color=255,215,0>ver.0.5.2 Alpha</color>
+SmallDescription=<color=255,160,0>Disabling the mod mid-playthrough is not recommended: equipment tags are stored in the save file.</color>
+FullDescription=Wormholes appear only in actually accessible stores within player-unlocked sectors. The feature is available via standard auto-search by entering the name "WH". The jump target is selected on the galaxy map and shares a global 30-day cooldown between the hull and engine.

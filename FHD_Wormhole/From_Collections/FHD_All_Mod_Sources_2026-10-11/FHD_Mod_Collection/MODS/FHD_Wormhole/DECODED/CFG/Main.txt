@@ -1,0 +1,107 @@
+BV ~{
+    OnStart ^{
+        0DayScripts ^{
+            FHDWormholeRuntimeBootstrap=if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeRuntime')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeRuntime','NoShow');
+        }
+    }
+    OnLoad ^{
+        FHDWormholeRuntimeBootstrap ^{
+            01=if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeRuntime')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeRuntime','NoShow');
+        }
+    }
+}
+ML ^{
+    Ship ^{
+        Panel ^{
+            Panel ^{
+            }
+            Panel ^{
+                Panel ^{
+                }
+                Panel ^{
+                    Panel ^{
+                        Panel ^{
+                            GraphButton ^{
+                            }
+                            GraphButton ^{
+                                Active=False
+                                ImageDisable=GI,Bm.FHD_Wormhole.2FHDWormholeH
+                                ImageDown=GI,Bm.FHD_Wormhole.2FHDWormholeD
+                                ImageNormal=GI,Bm.FHD_Wormhole.2FHDWormholeN
+                                ImageNormalA=GI,Bm.FHD_Wormhole.2FHDWormholeA
+                                Kind=Normal
+                                KindHit=Rect
+                                MouseBlocking=True
+                                Name=FHDWormholeButton
+                                OnPressCode ^{
+                                    01=dword wh_hull=ShipEqInSlot(Player(),t_Hull);
+                                    02=dword wh_engine=ShipEqInSlot(Player(),t_Engine);
+                                    03=int wh_core=FindBonusByCustomTag('FHD_WormholeV2_Core');
+                                    04=int wh_eng_core=FindBonusByCustomTag('FHD_WormholeV2_EngineCore');
+                                    05=if(wh_core<0||wh_eng_core<0){MessageBox(CT('Script.FHD_Wormhole.ConfigError'));exit;}
+                                    06=int wh_has_hull=0;int wh_has_engine=0;if(wh_hull){if(ItemExtraSpecialsCountByType(wh_hull,wh_core))wh_has_hull=1;}if(wh_engine){if(ItemExtraSpecialsCountByType(wh_engine,wh_eng_core))wh_has_engine=1;}
+                                    07=if(!wh_has_hull&&!wh_has_engine){MessageBox(CT('Script.FHD_Wormhole.NoModule'));exit;}
+                                    08=if(!ShipInNormalSpace(Player())){MessageBox(CT('FormShip.UseOnlyInSpace'));exit;}
+                                    09=if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeRuntime')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeRuntime','NoShow');
+                                    10=int wh_now=CurTurn();int wh_ready=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',1);
+                                    11=if(wh_ready>wh_now){MessageBox(CT('Script.FHD_Wormhole.CooldownPrefix')+(wh_ready-wh_now)+CT('Script.FHD_Wormhole.CooldownSuffix'));exit;}
+                                    12=if(!MessageBoxYesNo(CT('Script.FHD_Wormhole.Confirm')))exit;
+                                    13=int wh_old_order=ShipOrder(Player());dword wh_old_obj=ShipOrderObj(Player());
+                                    14=RunChildForm('Galaxy');
+                                    15=if(ShipOrder(Player())!=7)exit;
+                                    16=dword wh_new_obj=ShipOrderObj(Player());if(wh_old_order==7&&wh_new_obj==wh_old_obj)exit;
+                                    17=dword wh_tank=ShipEqInSlot(Player(),t_FuelTanks);
+                                    18=for(int wh_i=ShipItems(Player())-1;wh_i>=1;wh_i=wh_i-1)
+                                    19={
+                                    20=dword wh_item=ShipItems(Player(),wh_i);
+                                    21=if(!wh_item)continue;if(!ItemIsInUse(wh_item))continue;if(ItemType(wh_item)<t_Hull)continue;if(ItemType(wh_item)==t_Hull)continue;
+                                    22=if(wh_item==wh_engine||wh_item==wh_tank)continue;
+                                    23=if(ItemCanBeBroken(wh_item)){if(ItemDurability(wh_item)>1)ItemDurability(wh_item,1);}
+                                    24=}
+                                    25=if(wh_engine){if(ItemCanBeBroken(wh_engine)){if(ItemDurability(wh_engine)>10)ItemDurability(wh_engine,10);}}
+                                    26=if(wh_tank){if(ItemCanBeBroken(wh_tank)){if(ItemDurability(wh_tank)>10)ItemDurability(wh_tank,10);}}
+                                    27=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',1,wh_now+30);
+                                    28=InterfaceState('Ship','FHDWormholeLock',1);
+                                    29=ShipOrderData1(Player(),1);
+                                    30=ForceNextDay();
+                                }
+                                Pos=12,168,3
+                                Size=17,17
+                                Style=Style.GB.SoundNormal
+                            }
+                            Image ^{
+                            }
+                            Image ^{
+                            }
+                            Image ^{
+                            }
+                            Image ^{
+                                Active=False
+                                Image=GI,Bm.FHD_Wormhole.2FHDWormhole
+                                Name=FHDWormholeBG
+                                Pos=0,159,5
+                                Size=53,56
+                            }
+                            Image ^{
+                                Active=False
+                                Image=GI,Bm.FHD_Wormhole.2FHDWormholeLight
+                                Name=FHDWormholeGlow
+                                Pos=23,164,4
+                                Size=21,20
+                            }
+                            Image ^{
+                                Active=False
+                                Image=GI,Bm.FHD_Wormhole.2FHDWormholeH
+                                MouseBlocking=False
+                                Name=FHDWormholeLock
+                                Pos=12,168,2
+                                Size=17,17
+                            }
+                            Size=53,215
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

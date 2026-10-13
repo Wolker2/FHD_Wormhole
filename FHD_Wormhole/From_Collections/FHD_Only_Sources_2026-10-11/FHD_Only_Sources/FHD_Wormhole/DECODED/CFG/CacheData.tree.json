@@ -1,0 +1,52 @@
+{
+  "format": "cache",
+  "header_key": 3935256375,
+  "new_format": false,
+  "seed": 19088743,
+  "sha256": "561dae10c9079ef35edbba983de0f485cb4dc744a858a89955214dfab1913966",
+  "tree": {
+    "sorted": true,
+    "entries": [
+      {
+        "name": "Bm",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "FHD_Wormhole",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "2FHDWormhole",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormhole.gi"
+                  },
+                  {
+                    "name": "2FHDWormholeA",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormholeA.gi"
+                  },
+                  {
+                    "name": "2FHDWormholeD",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormholeD.gi"
+                  },
+                  {
+                    "name": "2FHDWormholeH",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormholeH.gi"
+                  },
+                  {
+                    "name": "2FHDWormholeLight",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormholeLight.gi"
+                  },
+                  {
+                    "name": "2FHDWormholeN",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormholeN.gi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

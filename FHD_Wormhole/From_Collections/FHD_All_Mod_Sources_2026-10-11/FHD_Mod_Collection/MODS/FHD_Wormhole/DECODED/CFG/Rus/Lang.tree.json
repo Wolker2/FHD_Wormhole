@@ -1,0 +1,2035 @@
+{
+  "format": "blockpar",
+  "header_key": 2984822409,
+  "new_format": true,
+  "seed": 19088743,
+  "sha256": "b91d152bffc82821f2e4f6ebe2f4bc7759d9ce14abc83f651bf605a367a5d33d",
+  "tree": {
+    "sorted": true,
+    "entries": [
+      {
+        "name": "FHDWormholePadding",
+        "value": "Z2YsbZl9a6Q3edrbh7oOF5l6bH6iy3PYxc2lXdCGCD24GkHJZcgYeg2GQff0iYvKtCGXNu8xqp6h37r5rfh49nCTz06cb0Eg3Bgkzp9ZaMGBhMH4pGNZGS5UhVzrXKcOwBgdUHST5TV",
+        "metadata": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "HullType",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "FHD_WormholeSeries",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Artefact",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Cost",
+                    "value": "100",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Def",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Droid",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Forsage",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Fragility",
+                    "value": "100",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Hook",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Name",
+                    "value": "Червоточина",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Probability",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Race",
+                    "value": "Any",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Radar",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Scaner",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "ShipType",
+                    "value": "Any",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Size",
+                    "value": "100",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Text",
+                    "value": "<color=165,80,255>Серия «Червоточина» (совместимость со старыми сохранениями).</color>",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Weapon",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Year",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Items",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "Hull",
+              "block": {
+                "sorted": true,
+                "entries": []
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "MicroModuls",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "FHD_WormholeV2_Checked",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Cost",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_Checked",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Equipments",
+                    "value": "Hull",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Name",
+                    "value": "",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Priority",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Size",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Special",
+                    "value": "1",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Text",
+                    "value": "",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "NonSearchable",
+                    "value": "1",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "FHD_WormholeV2_Core",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Cost",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_Core",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Equipments",
+                    "value": "Hull",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "ExText",
+                    "value": "<color=165,80,255>Функция корпуса: Червоточина.</color>",
+                    "metadata": [
+                      0,
+                      2
+                    ]
+                  },
+                  {
+                    "name": "ExText",
+                    "value": "Особо редкая модификация оборудования. Позволяет выполнить телепортационный переход с карты галактики через Червоточину.",
+                    "metadata": [
+                      1,
+                      0
+                    ]
+                  },
+                  {
+                    "name": "Name",
+                    "value": "Червоточина",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Priority",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Size",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Special",
+                    "value": "1",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "FHD_WormholeV2_EngineChecked",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Cost",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_EngineChecked",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Equipments",
+                    "value": "Engine",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Name",
+                    "value": "",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Priority",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Size",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Special",
+                    "value": "1",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Text",
+                    "value": "",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "NonSearchable",
+                    "value": "1",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "FHD_WormholeV2_EngineCore",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Cost",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_EngineCore",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Equipments",
+                    "value": "Engine",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "ExText",
+                    "value": "<color=165,80,255>Модификация двигателя: Червоточина.</color>",
+                    "metadata": [
+                      0,
+                      2
+                    ]
+                  },
+                  {
+                    "name": "ExText",
+                    "value": "Особо редкая модификация оборудования. Позволяет выполнить телепортационный переход с карты галактики через Червоточину.",
+                    "metadata": [
+                      1,
+                      0
+                    ]
+                  },
+                  {
+                    "name": "Name",
+                    "value": "Червоточина",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Priority",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Size",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Special",
+                    "value": "1",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "FHD_WormholeV2_EngineMonthStamp",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Cost",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_EngineMonthStamp",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Equipments",
+                    "value": "Engine",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Name",
+                    "value": "",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Priority",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Size",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Special",
+                    "value": "1",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Text",
+                    "value": "",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "NonSearchable",
+                    "value": "1",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "FHD_WormholeV2_MonthStamp",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Cost",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_MonthStamp",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Equipments",
+                    "value": "Hull",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Name",
+                    "value": "",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Priority",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Size",
+                    "value": "0",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Special",
+                    "value": "1",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Text",
+                    "value": "",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "NonSearchable",
+                    "value": "1",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "ShipInfo",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "AddInfo",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "CustomInfos",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "FHDWormholeRuntime",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Description",
+                                "value": "NoShow",
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "name": "Icon",
+                                "value": "0",
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "name": "Name",
+                                "value": "",
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "name": "OnActCode",
+                                "block": {
+                                  "sorted": true,
+                                  "entries": [
+                                    {
+                                      "name": "001",
+                                      "value": "int wh_checked=FindBonusByCustomTag('FHD_WormholeV2_Checked');",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "002",
+                                      "value": "int wh_core=FindBonusByCustomTag('FHD_WormholeV2_Core');",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "003",
+                                      "value": "int wh_stamp=FindBonusByCustomTag('FHD_WormholeV2_MonthStamp');",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "004",
+                                      "value": "int wh_eng_checked=FindBonusByCustomTag('FHD_WormholeV2_EngineChecked');",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "005",
+                                      "value": "int wh_eng_core=FindBonusByCustomTag('FHD_WormholeV2_EngineCore');",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "006",
+                                      "value": "int wh_eng_stamp=FindBonusByCustomTag('FHD_WormholeV2_EngineMonthStamp');",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "007",
+                                      "value": "str wh_nm='';int wh_hull_shop_has_core=0;int wh_eng_shop_has_core=0;int wh_i=0;int wh_j=0;int wh_cs=0;int wh_cp=0;dword wh_place=0;dword wh_existing=0;dword wh_item=0;dword wh_count_star=0;dword wh_count_place=0;int wh_shop_count=0;int wh_hull_roll=4;int wh_eng_roll=2;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "008",
+                                      "value": "if(wh_checked<0||wh_core<0||wh_eng_checked<0||wh_eng_core<0){if(CurrentForm()=='Ship'){InterfaceState('Ship','FHDWormholeBG',0);InterfaceState('Ship','FHDWormholeButton',0);InterfaceState('Ship','FHDWormholeGlow',0);InterfaceState('Ship','FHDWormholeLock',0);}exit;}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "009",
+                                      "value": "dword wh_player_hull=ShipEqInSlot(Player(),t_Hull);",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "010",
+                                      "value": "dword wh_player_engine=ShipEqInSlot(Player(),t_Engine);",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "011",
+                                      "value": "int wh_state=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2);",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "012",
+                                      "value": "if(wh_state==0){int wh_legacy_ready=0;int wh_legacy_hull=0;int wh_legacy_engine=0;if(wh_stamp>=0){if(wh_player_hull)wh_legacy_hull=ItemExtraSpecialsCountByType(wh_player_hull,wh_stamp);}if(wh_eng_stamp>=0){if(wh_player_engine)wh_legacy_engine=ItemExtraSpecialsCountByType(wh_player_engine,wh_eng_stamp);}if(wh_legacy_hull>wh_legacy_ready)wh_legacy_ready=wh_legacy_hull;if(wh_legacy_engine>wh_legacy_ready)wh_legacy_ready=wh_legacy_engine;ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',1,wh_legacy_ready);wh_state=1;ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2,1);}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "013",
+                                      "value": "if(wh_state<1000)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "014",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "015",
+                                      "value": "wh_shop_count=0;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "016",
+                                      "value": "for(wh_cs=0;wh_cs<GalaxyStars();wh_cs=wh_cs+1)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "017",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "018",
+                                      "value": "wh_count_star=GalaxyStar(wh_cs);",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "019",
+                                      "value": "if(!wh_count_star)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "020",
+                                      "value": "if(!SectorVisible(StarToCon(wh_count_star)))continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "021",
+                                      "value": "if(StarOwner(wh_count_star)==1)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "022",
+                                      "value": "if(StarCustomFaction(wh_count_star)=='Klissan')continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "023",
+                                      "value": "for(wh_cp=0;wh_cp<StarPlanets(wh_count_star);wh_cp=wh_cp+1){wh_count_place=StarPlanets(wh_count_star,wh_cp);if(PlanetOwner(wh_count_place)!=None&&PlanetOwner(wh_count_place)!=Kling)wh_shop_count=wh_shop_count+1;}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "024",
+                                      "value": "wh_shop_count=wh_shop_count+StarRuins(wh_count_star);",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "025",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "026",
+                                      "value": "ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2,1000+wh_shop_count);",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "027",
+                                      "value": "if(wh_shop_count<=5){wh_hull_roll=10;wh_eng_roll=4;}else if(wh_shop_count<=10){wh_hull_roll=6;wh_eng_roll=3;}else{wh_hull_roll=4;wh_eng_roll=2;}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "028",
+                                      "value": "wh_state=1000+wh_shop_count;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "029",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "030",
+                                      "value": "else{wh_shop_count=wh_state-1000;if(wh_shop_count<=5){wh_hull_roll=10;wh_eng_roll=4;}else if(wh_shop_count<=10){wh_hull_roll=6;wh_eng_roll=3;}else{wh_hull_roll=4;wh_eng_roll=2;}}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "031",
+                                      "value": "if(ScriptItemActionType(t_OnStep))",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "032",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "033",
+                                      "value": "int n=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',3);if(!n){n=CurTurn()+1;ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',3,n);}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "034",
+                                      "value": "if(CurTurn()>=n)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "035",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "036",
+                                      "value": "int q=ScriptItemActParam();",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "037",
+                                      "value": "if(q>=0&&q<=11)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "038",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "039",
+                                      "value": "if(q==0)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "040",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "041",
+                                      "value": "wh_shop_count=0;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "042",
+                                      "value": "for(wh_cs=0;wh_cs<GalaxyStars();wh_cs=wh_cs+1)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "043",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "044",
+                                      "value": "wh_count_star=GalaxyStar(wh_cs);",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "045",
+                                      "value": "if(!wh_count_star)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "046",
+                                      "value": "if(!SectorVisible(StarToCon(wh_count_star)))continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "047",
+                                      "value": "if(StarOwner(wh_count_star)==1)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "048",
+                                      "value": "if(StarCustomFaction(wh_count_star)=='Klissan')continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "049",
+                                      "value": "for(wh_cp=0;wh_cp<StarPlanets(wh_count_star);wh_cp=wh_cp+1){wh_count_place=StarPlanets(wh_count_star,wh_cp);if(PlanetOwner(wh_count_place)!=None&&PlanetOwner(wh_count_place)!=Kling)wh_shop_count=wh_shop_count+1;}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "050",
+                                      "value": "wh_shop_count=wh_shop_count+StarRuins(wh_count_star);",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "051",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "052",
+                                      "value": "ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2,1000+wh_shop_count);",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "053",
+                                      "value": "if(wh_shop_count<=5){wh_hull_roll=10;wh_eng_roll=4;}else if(wh_shop_count<=10){wh_hull_roll=6;wh_eng_roll=3;}else{wh_hull_roll=4;wh_eng_roll=2;}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "054",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "055",
+                                      "value": "for(int wh_s=q;wh_s<GalaxyStars();wh_s=wh_s+12)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "056",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "057",
+                                      "value": "dword wh_star=GalaxyStar(wh_s);",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "058",
+                                      "value": "if(!wh_star)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "059",
+                                      "value": "if(!SectorVisible(StarToCon(wh_star)))continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "060",
+                                      "value": "if(StarOwner(wh_star)==1)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "061",
+                                      "value": "if(StarCustomFaction(wh_star)=='Klissan')continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "062",
+                                      "value": "for(int wh_p=0;wh_p<StarPlanets(wh_star);wh_p=wh_p+1)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "063",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "064",
+                                      "value": "wh_place=StarPlanets(wh_star,wh_p);if(PlanetOwner(wh_place)==None||PlanetOwner(wh_place)==Kling)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "065",
+                                      "value": "wh_hull_shop_has_core=0;wh_eng_shop_has_core=0;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "066",
+                                      "value": "for(wh_j=0;wh_j<ShopItems(wh_place);wh_j=wh_j+1)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "067",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "068",
+                                      "value": "wh_existing=ShopItems(wh_place,wh_j);if(!wh_existing)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "069",
+                                      "value": "if(ItemType(wh_existing)==t_Hull&&ItemExtraSpecialsCountByType(wh_existing,wh_core)){wh_hull_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_checked))ItemExtraSpecialsAddByType(wh_existing,wh_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "070",
+                                      "value": "if(ItemType(wh_existing)==t_Engine&&ItemExtraSpecialsCountByType(wh_existing,wh_eng_core)){wh_eng_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_eng_checked))ItemExtraSpecialsAddByType(wh_existing,wh_eng_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "071",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "072",
+                                      "value": "for(wh_i=0;wh_i<ShopItems(wh_place);wh_i=wh_i+1)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "073",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "074",
+                                      "value": "wh_item=ShopItems(wh_place,wh_i);if(!wh_item)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "075",
+                                      "value": "if(ItemType(wh_item)==t_Hull&&!wh_hull_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_checked)){ItemExtraSpecialsAddByType(wh_item,wh_checked,1);if(Rnd(1,200)<=wh_hull_roll){ItemExtraSpecialsAddByType(wh_item,wh_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_hull_shop_has_core=1;}}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "076",
+                                      "value": "else if(ItemType(wh_item)==t_Engine&&!wh_eng_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_eng_checked)){ItemExtraSpecialsAddByType(wh_item,wh_eng_checked,1);if(Rnd(1,200)<=wh_eng_roll){ItemExtraSpecialsAddByType(wh_item,wh_eng_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_eng_shop_has_core=1;}}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "077",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "078",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "079",
+                                      "value": "for(int wh_r=0;wh_r<StarRuins(wh_star);wh_r=wh_r+1)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "080",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "081",
+                                      "value": "wh_place=StarRuins(wh_star,wh_r);",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "082",
+                                      "value": "wh_hull_shop_has_core=0;wh_eng_shop_has_core=0;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "083",
+                                      "value": "for(wh_j=0;wh_j<ShopItems(wh_place);wh_j=wh_j+1)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "084",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "085",
+                                      "value": "wh_existing=ShopItems(wh_place,wh_j);if(!wh_existing)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "086",
+                                      "value": "if(ItemType(wh_existing)==t_Hull&&ItemExtraSpecialsCountByType(wh_existing,wh_core)){wh_hull_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_checked))ItemExtraSpecialsAddByType(wh_existing,wh_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "087",
+                                      "value": "if(ItemType(wh_existing)==t_Engine&&ItemExtraSpecialsCountByType(wh_existing,wh_eng_core)){wh_eng_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_eng_checked))ItemExtraSpecialsAddByType(wh_existing,wh_eng_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "088",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "089",
+                                      "value": "for(wh_i=0;wh_i<ShopItems(wh_place);wh_i=wh_i+1)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "090",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "091",
+                                      "value": "wh_item=ShopItems(wh_place,wh_i);if(!wh_item)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "092",
+                                      "value": "if(ItemType(wh_item)==t_Hull&&!wh_hull_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_checked)){ItemExtraSpecialsAddByType(wh_item,wh_checked,1);if(Rnd(1,200)<=wh_hull_roll){ItemExtraSpecialsAddByType(wh_item,wh_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_hull_shop_has_core=1;}}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "093",
+                                      "value": "else if(ItemType(wh_item)==t_Engine&&!wh_eng_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_eng_checked)){ItemExtraSpecialsAddByType(wh_item,wh_eng_checked,1);if(Rnd(1,200)<=wh_eng_roll){ItemExtraSpecialsAddByType(wh_item,wh_eng_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_eng_shop_has_core=1;}}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "094",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "095",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "096",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "097",
+                                      "value": "if(q==11)ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',3,CurTurn()+Rnd(20,30));",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "098",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "099",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "100",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "101",
+                                      "value": "if((ScriptItemActionType(t_OnEnteringForm)||ScriptItemActionType(t_OnReEnteringForm))&&CurrentForm()=='EquipmentShop')",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "102",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "103",
+                                      "value": "dword wh_cur_star=ShipStar(Player());",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "104",
+                                      "value": "if(wh_cur_star)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "105",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "106",
+                                      "value": "if(StarOwner(wh_cur_star)!=1&&StarCustomFaction(wh_cur_star)!='Klissan')",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "107",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "108",
+                                      "value": "dword wh_cur_planet=GetShipPlanet(Player());wh_place=wh_cur_planet;if(!wh_place)wh_place=GetShipRuins(Player());",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "109",
+                                      "value": "int wh_place_ok=1;if(wh_cur_planet){if(PlanetOwner(wh_cur_planet)==Kling)wh_place_ok=0;}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "110",
+                                      "value": "if(wh_place)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "111",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "112",
+                                      "value": "if(wh_place_ok)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "113",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "114",
+                                      "value": "wh_hull_shop_has_core=0;wh_eng_shop_has_core=0;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "115",
+                                      "value": "for(wh_j=0;wh_j<ShopItems(wh_place);wh_j=wh_j+1)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "116",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "117",
+                                      "value": "wh_existing=ShopItems(wh_place,wh_j);if(!wh_existing)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "118",
+                                      "value": "if(ItemType(wh_existing)==t_Hull&&ItemExtraSpecialsCountByType(wh_existing,wh_core)){wh_hull_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_checked))ItemExtraSpecialsAddByType(wh_existing,wh_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "119",
+                                      "value": "if(ItemType(wh_existing)==t_Engine&&ItemExtraSpecialsCountByType(wh_existing,wh_eng_core)){wh_eng_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_eng_checked))ItemExtraSpecialsAddByType(wh_existing,wh_eng_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "120",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "121",
+                                      "value": "for(wh_i=0;wh_i<ShopItems(wh_place);wh_i=wh_i+1)",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "122",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "123",
+                                      "value": "wh_item=ShopItems(wh_place,wh_i);if(!wh_item)continue;",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "124",
+                                      "value": "if(ItemType(wh_item)==t_Hull&&!wh_hull_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_checked)){ItemExtraSpecialsAddByType(wh_item,wh_checked,1);if(Rnd(1,200)<=wh_hull_roll){ItemExtraSpecialsAddByType(wh_item,wh_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_hull_shop_has_core=1;}}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "125",
+                                      "value": "else if(ItemType(wh_item)==t_Engine&&!wh_eng_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_eng_checked)){ItemExtraSpecialsAddByType(wh_item,wh_eng_checked,1);if(Rnd(1,200)<=wh_eng_roll){ItemExtraSpecialsAddByType(wh_item,wh_eng_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_eng_shop_has_core=1;}}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "126",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "127",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "128",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "129",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "130",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "131",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "132",
+                                      "value": "if(wh_player_hull){if(ItemExtraSpecialsCountByType(wh_player_hull,wh_core)){if(!ItemExtraSpecialsCountByType(wh_player_hull,wh_checked))ItemExtraSpecialsAddByType(wh_player_hull,wh_checked,1);wh_nm=Format(Name(wh_player_hull),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_player_hull))SetName(wh_player_hull,wh_nm);}}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "133",
+                                      "value": "if(wh_player_engine){if(ItemExtraSpecialsCountByType(wh_player_engine,wh_eng_core)){if(!ItemExtraSpecialsCountByType(wh_player_engine,wh_eng_checked))ItemExtraSpecialsAddByType(wh_player_engine,wh_eng_checked,1);wh_nm=Format(Name(wh_player_engine),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_player_engine))SetName(wh_player_engine,wh_nm);}}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "134",
+                                      "value": "if(CurrentForm()=='Ship')",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "135",
+                                      "value": "{",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "136",
+                                      "value": "int wh_has_hull=0;int wh_has_engine=0;if(wh_player_hull){if(ItemExtraSpecialsCountByType(wh_player_hull,wh_core))wh_has_hull=1;}if(wh_player_engine){if(ItemExtraSpecialsCountByType(wh_player_engine,wh_eng_core))wh_has_engine=1;}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "137",
+                                      "value": "if(wh_has_hull||wh_has_engine){InterfaceState('Ship','FHDWormholeBG',1);InterfaceState('Ship','FHDWormholeButton',1);InterfaceState('Ship','FHDWormholeGlow',1);int wh_now=CurTurn();int wh_global_ready=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',1);if(wh_global_ready>wh_now)InterfaceState('Ship','FHDWormholeLock',1);else InterfaceState('Ship','FHDWormholeLock',0);}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "138",
+                                      "value": "else{InterfaceState('Ship','FHDWormholeBG',0);InterfaceState('Ship','FHDWormholeButton',0);InterfaceState('Ship','FHDWormholeGlow',0);InterfaceState('Ship','FHDWormholeLock',0);}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "name": "139",
+                                      "value": "}",
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "name": "OnActCodeTypes",
+                                "value": "t_OnStep,t_OnEnteringForm,t_OnReEnteringForm,t_OnPlayerChangeHull",
+                                "metadata": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Script",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "FHD_Wormhole",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "ConfigError",
+                    "value": "Ошибка конфигурации FHD_Wormhole: не найдены служебные спецакрины. Переход отменён.",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "NoModule",
+                    "value": "На корабле не установлен корпус или двигатель с функцией «Червоточина».",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "CooldownPrefix",
+                    "value": "Червоточина перезаряжается. Общая перезарядка корпуса и двигателя закончится через ",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "CooldownSuffix",
+                    "value": " игровых дней.",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "name": "Confirm",
+                    "value": "Открыть карту для перехода через червоточину? После подтверждённого перехода система будет недоступна 30 игровых дней. Обычное установленное оборудование получит критический износ; артефакты не пострадают.",
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      }
+    ]
+  }
+}

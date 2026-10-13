@@ -1,0 +1,262 @@
+FHDWormholePadding=Z2YsbZl9a6Q3edrbh7oOF5l6bH6iy3PYxc2lXdCGCD24GkHJZcgYeg2GQff0iYvKtCGXNu8xqp6h37r5rfh49nCTz06cb0Eg3Bgkzp9ZaMGBhMH4pGNZGS5UhVzrXKcOwBgdUHST5TV
+HullType ^{
+    FHD_WormholeSeries ^{
+        Artefact=0
+        Cost=100
+        Def=0
+        Droid=0
+        Forsage=0
+        Fragility=100
+        Hook=0
+        Name=Wormhole
+        Probability=0
+        Race=Any
+        Radar=0
+        Scaner=0
+        ShipType=Any
+        Size=100
+        Text=<color=165,80,255>Wormhole series (legacy save compatibility).</color>
+        Weapon=0
+        Year=0
+    }
+}
+Items ^{
+    Hull ^{
+    }
+}
+MicroModuls ^{
+    FHD_WormholeV2_Checked ^{
+        Cost=0
+        CustomTag=FHD_WormholeV2_Checked
+        Equipments=Hull
+        Name=
+        OnPlanets=0
+        Priority=0
+        Size=0
+        Special=1
+        Text=
+        NonSearchable=1
+    }
+    FHD_WormholeV2_Core ^{
+        Cost=0
+        CustomTag=FHD_WormholeV2_Core
+        Equipments=Hull
+        ExText=<color=165,80,255>Hull function: Wormhole.</color>
+        ExText=Very rare equipment modification. Allows a teleport jump from the galaxy map through a Wormhole.
+        Name=Wormhole
+        OnPlanets=0
+        Priority=0
+        Size=0
+        Special=1
+    }
+    FHD_WormholeV2_EngineChecked ^{
+        Cost=0
+        CustomTag=FHD_WormholeV2_EngineChecked
+        Equipments=Engine
+        Name=
+        OnPlanets=0
+        Priority=0
+        Size=0
+        Special=1
+        Text=
+        NonSearchable=1
+    }
+    FHD_WormholeV2_EngineCore ^{
+        Cost=0
+        CustomTag=FHD_WormholeV2_EngineCore
+        Equipments=Engine
+        ExText=<color=165,80,255>Engine modification: Wormhole.</color>
+        ExText=Very rare equipment modification. Allows a teleport jump from the galaxy map through a Wormhole.
+        Name=Wormhole
+        OnPlanets=0
+        Priority=0
+        Size=0
+        Special=1
+    }
+    FHD_WormholeV2_EngineMonthStamp ^{
+        Cost=0
+        CustomTag=FHD_WormholeV2_EngineMonthStamp
+        Equipments=Engine
+        Name=
+        OnPlanets=0
+        Priority=0
+        Size=0
+        Special=1
+        Text=
+        NonSearchable=1
+    }
+    FHD_WormholeV2_MonthStamp ^{
+        Cost=0
+        CustomTag=FHD_WormholeV2_MonthStamp
+        Equipments=Hull
+        Name=
+        OnPlanets=0
+        Priority=0
+        Size=0
+        Special=1
+        Text=
+        NonSearchable=1
+    }
+}
+ShipInfo ^{
+    AddInfo ^{
+        CustomInfos ^{
+            FHDWormholeRuntime ^{
+                Description=NoShow
+                Icon=0
+                Name=
+                OnActCode ^{
+                    001=int wh_checked=FindBonusByCustomTag('FHD_WormholeV2_Checked');
+                    002=int wh_core=FindBonusByCustomTag('FHD_WormholeV2_Core');
+                    003=int wh_stamp=FindBonusByCustomTag('FHD_WormholeV2_MonthStamp');
+                    004=int wh_eng_checked=FindBonusByCustomTag('FHD_WormholeV2_EngineChecked');
+                    005=int wh_eng_core=FindBonusByCustomTag('FHD_WormholeV2_EngineCore');
+                    006=int wh_eng_stamp=FindBonusByCustomTag('FHD_WormholeV2_EngineMonthStamp');
+                    007=str wh_nm='';int wh_hull_shop_has_core=0;int wh_eng_shop_has_core=0;int wh_i=0;int wh_j=0;int wh_cs=0;int wh_cp=0;dword wh_place=0;dword wh_existing=0;dword wh_item=0;dword wh_count_star=0;dword wh_count_place=0;int wh_shop_count=0;int wh_hull_roll=4;int wh_eng_roll=2;
+                    008=if(wh_checked<0||wh_core<0||wh_eng_checked<0||wh_eng_core<0){if(CurrentForm()=='Ship'){InterfaceState('Ship','FHDWormholeBG',0);InterfaceState('Ship','FHDWormholeButton',0);InterfaceState('Ship','FHDWormholeGlow',0);InterfaceState('Ship','FHDWormholeLock',0);}exit;}
+                    009=dword wh_player_hull=ShipEqInSlot(Player(),t_Hull);
+                    010=dword wh_player_engine=ShipEqInSlot(Player(),t_Engine);
+                    011=int wh_state=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2);
+                    012=if(wh_state==0){int wh_legacy_ready=0;int wh_legacy_hull=0;int wh_legacy_engine=0;if(wh_stamp>=0){if(wh_player_hull)wh_legacy_hull=ItemExtraSpecialsCountByType(wh_player_hull,wh_stamp);}if(wh_eng_stamp>=0){if(wh_player_engine)wh_legacy_engine=ItemExtraSpecialsCountByType(wh_player_engine,wh_eng_stamp);}if(wh_legacy_hull>wh_legacy_ready)wh_legacy_ready=wh_legacy_hull;if(wh_legacy_engine>wh_legacy_ready)wh_legacy_ready=wh_legacy_engine;ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',1,wh_legacy_ready);wh_state=1;ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2,1);}
+                    013=if(wh_state<1000)
+                    014={
+                    015=wh_shop_count=0;
+                    016=for(wh_cs=0;wh_cs<GalaxyStars();wh_cs=wh_cs+1)
+                    017={
+                    018=wh_count_star=GalaxyStar(wh_cs);
+                    019=if(!wh_count_star)continue;
+                    020=if(!SectorVisible(StarToCon(wh_count_star)))continue;
+                    021=if(StarOwner(wh_count_star)==1)continue;
+                    022=if(StarCustomFaction(wh_count_star)=='Klissan')continue;
+                    023=for(wh_cp=0;wh_cp<StarPlanets(wh_count_star);wh_cp=wh_cp+1){wh_count_place=StarPlanets(wh_count_star,wh_cp);if(PlanetOwner(wh_count_place)!=None&&PlanetOwner(wh_count_place)!=Kling)wh_shop_count=wh_shop_count+1;}
+                    024=wh_shop_count=wh_shop_count+StarRuins(wh_count_star);
+                    025=}
+                    026=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2,1000+wh_shop_count);
+                    027=if(wh_shop_count<=5){wh_hull_roll=10;wh_eng_roll=4;}else if(wh_shop_count<=10){wh_hull_roll=6;wh_eng_roll=3;}else{wh_hull_roll=4;wh_eng_roll=2;}
+                    028=wh_state=1000+wh_shop_count;
+                    029=}
+                    030=else{wh_shop_count=wh_state-1000;if(wh_shop_count<=5){wh_hull_roll=10;wh_eng_roll=4;}else if(wh_shop_count<=10){wh_hull_roll=6;wh_eng_roll=3;}else{wh_hull_roll=4;wh_eng_roll=2;}}
+                    031=if(ScriptItemActionType(t_OnStep))
+                    032={
+                    033=int n=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',3);if(!n){n=CurTurn()+1;ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',3,n);}
+                    034=if(CurTurn()>=n)
+                    035={
+                    036=int q=ScriptItemActParam();
+                    037=if(q>=0&&q<=11)
+                    038={
+                    039=if(q==0)
+                    040={
+                    041=wh_shop_count=0;
+                    042=for(wh_cs=0;wh_cs<GalaxyStars();wh_cs=wh_cs+1)
+                    043={
+                    044=wh_count_star=GalaxyStar(wh_cs);
+                    045=if(!wh_count_star)continue;
+                    046=if(!SectorVisible(StarToCon(wh_count_star)))continue;
+                    047=if(StarOwner(wh_count_star)==1)continue;
+                    048=if(StarCustomFaction(wh_count_star)=='Klissan')continue;
+                    049=for(wh_cp=0;wh_cp<StarPlanets(wh_count_star);wh_cp=wh_cp+1){wh_count_place=StarPlanets(wh_count_star,wh_cp);if(PlanetOwner(wh_count_place)!=None&&PlanetOwner(wh_count_place)!=Kling)wh_shop_count=wh_shop_count+1;}
+                    050=wh_shop_count=wh_shop_count+StarRuins(wh_count_star);
+                    051=}
+                    052=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2,1000+wh_shop_count);
+                    053=if(wh_shop_count<=5){wh_hull_roll=10;wh_eng_roll=4;}else if(wh_shop_count<=10){wh_hull_roll=6;wh_eng_roll=3;}else{wh_hull_roll=4;wh_eng_roll=2;}
+                    054=}
+                    055=for(int wh_s=q;wh_s<GalaxyStars();wh_s=wh_s+12)
+                    056={
+                    057=dword wh_star=GalaxyStar(wh_s);
+                    058=if(!wh_star)continue;
+                    059=if(!SectorVisible(StarToCon(wh_star)))continue;
+                    060=if(StarOwner(wh_star)==1)continue;
+                    061=if(StarCustomFaction(wh_star)=='Klissan')continue;
+                    062=for(int wh_p=0;wh_p<StarPlanets(wh_star);wh_p=wh_p+1)
+                    063={
+                    064=wh_place=StarPlanets(wh_star,wh_p);if(PlanetOwner(wh_place)==None||PlanetOwner(wh_place)==Kling)continue;
+                    065=wh_hull_shop_has_core=0;wh_eng_shop_has_core=0;
+                    066=for(wh_j=0;wh_j<ShopItems(wh_place);wh_j=wh_j+1)
+                    067={
+                    068=wh_existing=ShopItems(wh_place,wh_j);if(!wh_existing)continue;
+                    069=if(ItemType(wh_existing)==t_Hull&&ItemExtraSpecialsCountByType(wh_existing,wh_core)){wh_hull_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_checked))ItemExtraSpecialsAddByType(wh_existing,wh_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}
+                    070=if(ItemType(wh_existing)==t_Engine&&ItemExtraSpecialsCountByType(wh_existing,wh_eng_core)){wh_eng_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_eng_checked))ItemExtraSpecialsAddByType(wh_existing,wh_eng_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}
+                    071=}
+                    072=for(wh_i=0;wh_i<ShopItems(wh_place);wh_i=wh_i+1)
+                    073={
+                    074=wh_item=ShopItems(wh_place,wh_i);if(!wh_item)continue;
+                    075=if(ItemType(wh_item)==t_Hull&&!wh_hull_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_checked)){ItemExtraSpecialsAddByType(wh_item,wh_checked,1);if(Rnd(1,200)<=wh_hull_roll){ItemExtraSpecialsAddByType(wh_item,wh_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_hull_shop_has_core=1;}}
+                    076=else if(ItemType(wh_item)==t_Engine&&!wh_eng_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_eng_checked)){ItemExtraSpecialsAddByType(wh_item,wh_eng_checked,1);if(Rnd(1,200)<=wh_eng_roll){ItemExtraSpecialsAddByType(wh_item,wh_eng_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_eng_shop_has_core=1;}}
+                    077=}
+                    078=}
+                    079=for(int wh_r=0;wh_r<StarRuins(wh_star);wh_r=wh_r+1)
+                    080={
+                    081=wh_place=StarRuins(wh_star,wh_r);
+                    082=wh_hull_shop_has_core=0;wh_eng_shop_has_core=0;
+                    083=for(wh_j=0;wh_j<ShopItems(wh_place);wh_j=wh_j+1)
+                    084={
+                    085=wh_existing=ShopItems(wh_place,wh_j);if(!wh_existing)continue;
+                    086=if(ItemType(wh_existing)==t_Hull&&ItemExtraSpecialsCountByType(wh_existing,wh_core)){wh_hull_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_checked))ItemExtraSpecialsAddByType(wh_existing,wh_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}
+                    087=if(ItemType(wh_existing)==t_Engine&&ItemExtraSpecialsCountByType(wh_existing,wh_eng_core)){wh_eng_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_eng_checked))ItemExtraSpecialsAddByType(wh_existing,wh_eng_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}
+                    088=}
+                    089=for(wh_i=0;wh_i<ShopItems(wh_place);wh_i=wh_i+1)
+                    090={
+                    091=wh_item=ShopItems(wh_place,wh_i);if(!wh_item)continue;
+                    092=if(ItemType(wh_item)==t_Hull&&!wh_hull_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_checked)){ItemExtraSpecialsAddByType(wh_item,wh_checked,1);if(Rnd(1,200)<=wh_hull_roll){ItemExtraSpecialsAddByType(wh_item,wh_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_hull_shop_has_core=1;}}
+                    093=else if(ItemType(wh_item)==t_Engine&&!wh_eng_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_eng_checked)){ItemExtraSpecialsAddByType(wh_item,wh_eng_checked,1);if(Rnd(1,200)<=wh_eng_roll){ItemExtraSpecialsAddByType(wh_item,wh_eng_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_eng_shop_has_core=1;}}
+                    094=}
+                    095=}
+                    096=}
+                    097=if(q==11)ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',3,CurTurn()+Rnd(20,30));
+                    098=}
+                    099=}
+                    100=}
+                    101=if((ScriptItemActionType(t_OnEnteringForm)||ScriptItemActionType(t_OnReEnteringForm))&&CurrentForm()=='EquipmentShop')
+                    102={
+                    103=dword wh_cur_star=ShipStar(Player());
+                    104=if(wh_cur_star)
+                    105={
+                    106=if(StarOwner(wh_cur_star)!=1&&StarCustomFaction(wh_cur_star)!='Klissan')
+                    107={
+                    108=dword wh_cur_planet=GetShipPlanet(Player());wh_place=wh_cur_planet;if(!wh_place)wh_place=GetShipRuins(Player());
+                    109=int wh_place_ok=1;if(wh_cur_planet){if(PlanetOwner(wh_cur_planet)==Kling)wh_place_ok=0;}
+                    110=if(wh_place)
+                    111={
+                    112=if(wh_place_ok)
+                    113={
+                    114=wh_hull_shop_has_core=0;wh_eng_shop_has_core=0;
+                    115=for(wh_j=0;wh_j<ShopItems(wh_place);wh_j=wh_j+1)
+                    116={
+                    117=wh_existing=ShopItems(wh_place,wh_j);if(!wh_existing)continue;
+                    118=if(ItemType(wh_existing)==t_Hull&&ItemExtraSpecialsCountByType(wh_existing,wh_core)){wh_hull_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_checked))ItemExtraSpecialsAddByType(wh_existing,wh_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}
+                    119=if(ItemType(wh_existing)==t_Engine&&ItemExtraSpecialsCountByType(wh_existing,wh_eng_core)){wh_eng_shop_has_core=1;if(!ItemExtraSpecialsCountByType(wh_existing,wh_eng_checked))ItemExtraSpecialsAddByType(wh_existing,wh_eng_checked,1);wh_nm=Format(Name(wh_existing),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_existing))SetName(wh_existing,wh_nm);}
+                    120=}
+                    121=for(wh_i=0;wh_i<ShopItems(wh_place);wh_i=wh_i+1)
+                    122={
+                    123=wh_item=ShopItems(wh_place,wh_i);if(!wh_item)continue;
+                    124=if(ItemType(wh_item)==t_Hull&&!wh_hull_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_checked)){ItemExtraSpecialsAddByType(wh_item,wh_checked,1);if(Rnd(1,200)<=wh_hull_roll){ItemExtraSpecialsAddByType(wh_item,wh_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_hull_shop_has_core=1;}}
+                    125=else if(ItemType(wh_item)==t_Engine&&!wh_eng_shop_has_core&&!ItemExtraSpecialsCountByType(wh_item,wh_eng_checked)){ItemExtraSpecialsAddByType(wh_item,wh_eng_checked,1);if(Rnd(1,200)<=wh_eng_roll){ItemExtraSpecialsAddByType(wh_item,wh_eng_core,1);wh_nm=Format(Name(wh_item),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_item))SetName(wh_item,wh_nm);wh_eng_shop_has_core=1;}}
+                    126=}
+                    127=}
+                    128=}
+                    129=}
+                    130=}
+                    131=}
+                    132=if(wh_player_hull){if(ItemExtraSpecialsCountByType(wh_player_hull,wh_core)){if(!ItemExtraSpecialsCountByType(wh_player_hull,wh_checked))ItemExtraSpecialsAddByType(wh_player_hull,wh_checked,1);wh_nm=Format(Name(wh_player_hull),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_player_hull))SetName(wh_player_hull,wh_nm);}}
+                    133=if(wh_player_engine){if(ItemExtraSpecialsCountByType(wh_player_engine,wh_eng_core)){if(!ItemExtraSpecialsCountByType(wh_player_engine,wh_eng_checked))ItemExtraSpecialsAddByType(wh_player_engine,wh_eng_checked,1);wh_nm=Format(Name(wh_player_engine),' [Червоточина]','',' [Wormhole]','');if(findsubstr(lowercase(wh_nm),' [wh]')<0)wh_nm=wh_nm+' [WH]';if(wh_nm!=Name(wh_player_engine))SetName(wh_player_engine,wh_nm);}}
+                    134=if(CurrentForm()=='Ship')
+                    135={
+                    136=int wh_has_hull=0;int wh_has_engine=0;if(wh_player_hull){if(ItemExtraSpecialsCountByType(wh_player_hull,wh_core))wh_has_hull=1;}if(wh_player_engine){if(ItemExtraSpecialsCountByType(wh_player_engine,wh_eng_core))wh_has_engine=1;}
+                    137=if(wh_has_hull||wh_has_engine){InterfaceState('Ship','FHDWormholeBG',1);InterfaceState('Ship','FHDWormholeButton',1);InterfaceState('Ship','FHDWormholeGlow',1);int wh_now=CurTurn();int wh_global_ready=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',1);if(wh_global_ready>wh_now)InterfaceState('Ship','FHDWormholeLock',1);else InterfaceState('Ship','FHDWormholeLock',0);}
+                    138=else{InterfaceState('Ship','FHDWormholeBG',0);InterfaceState('Ship','FHDWormholeButton',0);InterfaceState('Ship','FHDWormholeGlow',0);InterfaceState('Ship','FHDWormholeLock',0);}
+                    139=}
+                }
+                OnActCodeTypes=t_OnStep,t_OnEnteringForm,t_OnReEnteringForm,t_OnPlayerChangeHull
+            }
+        }
+    }
+}
+Script ^{
+    FHD_Wormhole ^{
+        ConfigError=FHD_Wormhole configuration error: required service specials were not found. Jump cancelled.
+        NoModule=No hull or engine with the Wormhole function is installed on this ship.
+        CooldownPrefix=The Wormhole is recharging. The shared hull/engine cooldown ends in 
+        CooldownSuffix= in-game days.
+        Confirm=Open the galaxy map for a Wormhole jump? After a confirmed jump, the system will be unavailable for 30 in-game days. Ordinary installed equipment will suffer critical wear; artifacts will not be damaged.
+    }
+}

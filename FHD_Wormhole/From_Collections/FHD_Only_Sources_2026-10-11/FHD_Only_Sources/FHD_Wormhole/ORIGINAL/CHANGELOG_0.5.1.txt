@@ -1,0 +1,10 @@
+FHD_Wormhole 0.5.1 Alpha — equipment removal crash hotfix
+
+- Fixed crash when removing a Wormhole-capable engine.
+- Root cause: RScript does not reliably short-circuit && / || expressions.
+  A condition such as if(engine && ItemExtraSpecialsCountByType(engine,...))
+  could still call ItemExtraSpecialsCountByType with engine == 0.
+- Replaced pointer-dependent compound guards with explicit nested checks.
+- Applied the same protection to hull handling, legacy migration, the ship
+  button check, durability processing, and empty ShipItems slots.
+- Balance, shop scanning, AutoSearch, cooldown and generation rules are unchanged.

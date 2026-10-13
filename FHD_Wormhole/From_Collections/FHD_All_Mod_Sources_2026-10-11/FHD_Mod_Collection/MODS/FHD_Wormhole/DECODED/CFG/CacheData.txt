@@ -1,0 +1,10 @@
+Bm ^{
+    FHD_Wormhole ^{
+        2FHDWormhole=Mods\FHD_MODS\FHD_Wormhole\DATA\FormShip2\2FHDWormhole.gi
+        2FHDWormholeA=Mods\FHD_MODS\FHD_Wormhole\DATA\FormShip2\2FHDWormholeA.gi
+        2FHDWormholeD=Mods\FHD_MODS\FHD_Wormhole\DATA\FormShip2\2FHDWormholeD.gi
+        2FHDWormholeH=Mods\FHD_MODS\FHD_Wormhole\DATA\FormShip2\2FHDWormholeH.gi
+        2FHDWormholeLight=Mods\FHD_MODS\FHD_Wormhole\DATA\FormShip2\2FHDWormholeLight.gi
+        2FHDWormholeN=Mods\FHD_MODS\FHD_Wormhole\DATA\FormShip2\2FHDWormholeN.gi
+    }
+}

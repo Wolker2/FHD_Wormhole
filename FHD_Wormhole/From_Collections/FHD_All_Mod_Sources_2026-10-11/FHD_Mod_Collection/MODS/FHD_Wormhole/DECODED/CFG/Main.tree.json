@@ -1,0 +1,762 @@
+{
+  "format": "blockpar",
+  "header_key": 2984822409,
+  "new_format": true,
+  "seed": 19088743,
+  "sha256": "fd4b7ebce3eb4fb12d071bd0cd92f7167936e91fc4399025d479e15c2cd05a94",
+  "tree": {
+    "sorted": true,
+    "entries": [
+      {
+        "name": "BV",
+        "block": {
+          "sorted": false,
+          "entries": [
+            {
+              "name": "OnStart",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "0DayScripts",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "FHDWormholeRuntimeBootstrap",
+                          "value": "if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeRuntime')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeRuntime','NoShow');",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "name": "OnLoad",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "FHDWormholeRuntimeBootstrap",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "01",
+                          "value": "if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeRuntime')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeRuntime','NoShow');",
+                          "metadata": [
+                            0,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "ML",
+        "block": {
+          "sorted": true,
+          "entries": [
+            {
+              "name": "Ship",
+              "block": {
+                "sorted": true,
+                "entries": [
+                  {
+                    "name": "Panel",
+                    "block": {
+                      "sorted": true,
+                      "entries": [
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": []
+                          },
+                          "metadata": [
+                            0,
+                            2
+                          ]
+                        },
+                        {
+                          "name": "Panel",
+                          "block": {
+                            "sorted": true,
+                            "entries": [
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": true,
+                                  "entries": []
+                                },
+                                "metadata": [
+                                  0,
+                                  2
+                                ]
+                              },
+                              {
+                                "name": "Panel",
+                                "block": {
+                                  "sorted": true,
+                                  "entries": [
+                                    {
+                                      "name": "Panel",
+                                      "block": {
+                                        "sorted": true,
+                                        "entries": [
+                                          {
+                                            "name": "Panel",
+                                            "block": {
+                                              "sorted": true,
+                                              "entries": [
+                                                {
+                                                  "name": "GraphButton",
+                                                  "block": {
+                                                    "sorted": true,
+                                                    "entries": []
+                                                  },
+                                                  "metadata": [
+                                                    0,
+                                                    2
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "GraphButton",
+                                                  "block": {
+                                                    "sorted": true,
+                                                    "entries": [
+                                                      {
+                                                        "name": "Active",
+                                                        "value": "False",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "ImageDisable",
+                                                        "value": "GI,Bm.FHD_Wormhole.2FHDWormholeH",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "ImageDown",
+                                                        "value": "GI,Bm.FHD_Wormhole.2FHDWormholeD",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "ImageNormal",
+                                                        "value": "GI,Bm.FHD_Wormhole.2FHDWormholeN",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "ImageNormalA",
+                                                        "value": "GI,Bm.FHD_Wormhole.2FHDWormholeA",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Kind",
+                                                        "value": "Normal",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "KindHit",
+                                                        "value": "Rect",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "MouseBlocking",
+                                                        "value": "True",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Name",
+                                                        "value": "FHDWormholeButton",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "OnPressCode",
+                                                        "block": {
+                                                          "sorted": true,
+                                                          "entries": [
+                                                            {
+                                                              "name": "01",
+                                                              "value": "dword wh_hull=ShipEqInSlot(Player(),t_Hull);",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "02",
+                                                              "value": "dword wh_engine=ShipEqInSlot(Player(),t_Engine);",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "03",
+                                                              "value": "int wh_core=FindBonusByCustomTag('FHD_WormholeV2_Core');",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "04",
+                                                              "value": "int wh_eng_core=FindBonusByCustomTag('FHD_WormholeV2_EngineCore');",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "05",
+                                                              "value": "if(wh_core<0||wh_eng_core<0){MessageBox(CT('Script.FHD_Wormhole.ConfigError'));exit;}",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "06",
+                                                              "value": "int wh_has_hull=0;int wh_has_engine=0;if(wh_hull){if(ItemExtraSpecialsCountByType(wh_hull,wh_core))wh_has_hull=1;}if(wh_engine){if(ItemExtraSpecialsCountByType(wh_engine,wh_eng_core))wh_has_engine=1;}",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "07",
+                                                              "value": "if(!wh_has_hull&&!wh_has_engine){MessageBox(CT('Script.FHD_Wormhole.NoModule'));exit;}",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "08",
+                                                              "value": "if(!ShipInNormalSpace(Player())){MessageBox(CT('FormShip.UseOnlyInSpace'));exit;}",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "09",
+                                                              "value": "if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeRuntime')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeRuntime','NoShow');",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "10",
+                                                              "value": "int wh_now=CurTurn();int wh_ready=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',1);",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "11",
+                                                              "value": "if(wh_ready>wh_now){MessageBox(CT('Script.FHD_Wormhole.CooldownPrefix')+(wh_ready-wh_now)+CT('Script.FHD_Wormhole.CooldownSuffix'));exit;}",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "12",
+                                                              "value": "if(!MessageBoxYesNo(CT('Script.FHD_Wormhole.Confirm')))exit;",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "13",
+                                                              "value": "int wh_old_order=ShipOrder(Player());dword wh_old_obj=ShipOrderObj(Player());",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "14",
+                                                              "value": "RunChildForm('Galaxy');",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "15",
+                                                              "value": "if(ShipOrder(Player())!=7)exit;",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "16",
+                                                              "value": "dword wh_new_obj=ShipOrderObj(Player());if(wh_old_order==7&&wh_new_obj==wh_old_obj)exit;",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "17",
+                                                              "value": "dword wh_tank=ShipEqInSlot(Player(),t_FuelTanks);",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "18",
+                                                              "value": "for(int wh_i=ShipItems(Player())-1;wh_i>=1;wh_i=wh_i-1)",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "19",
+                                                              "value": "{",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "20",
+                                                              "value": "dword wh_item=ShipItems(Player(),wh_i);",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "21",
+                                                              "value": "if(!wh_item)continue;if(!ItemIsInUse(wh_item))continue;if(ItemType(wh_item)<t_Hull)continue;if(ItemType(wh_item)==t_Hull)continue;",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "22",
+                                                              "value": "if(wh_item==wh_engine||wh_item==wh_tank)continue;",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "23",
+                                                              "value": "if(ItemCanBeBroken(wh_item)){if(ItemDurability(wh_item)>1)ItemDurability(wh_item,1);}",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "24",
+                                                              "value": "}",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "25",
+                                                              "value": "if(wh_engine){if(ItemCanBeBroken(wh_engine)){if(ItemDurability(wh_engine)>10)ItemDurability(wh_engine,10);}}",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "26",
+                                                              "value": "if(wh_tank){if(ItemCanBeBroken(wh_tank)){if(ItemDurability(wh_tank)>10)ItemDurability(wh_tank,10);}}",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "27",
+                                                              "value": "ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',1,wh_now+30);",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "28",
+                                                              "value": "InterfaceState('Ship','FHDWormholeLock',1);",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "29",
+                                                              "value": "ShipOrderData1(Player(),1);",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "30",
+                                                              "value": "ForceNextDay();",
+                                                              "metadata": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Pos",
+                                                        "value": "12,168,3",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Size",
+                                                        "value": "17,17",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Style",
+                                                        "value": "Style.GB.SoundNormal",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  "metadata": [
+                                                    1,
+                                                    0
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Image",
+                                                  "block": {
+                                                    "sorted": true,
+                                                    "entries": []
+                                                  },
+                                                  "metadata": [
+                                                    0,
+                                                    6
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Image",
+                                                  "block": {
+                                                    "sorted": true,
+                                                    "entries": []
+                                                  },
+                                                  "metadata": [
+                                                    1,
+                                                    0
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Image",
+                                                  "block": {
+                                                    "sorted": true,
+                                                    "entries": []
+                                                  },
+                                                  "metadata": [
+                                                    2,
+                                                    0
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Image",
+                                                  "block": {
+                                                    "sorted": true,
+                                                    "entries": [
+                                                      {
+                                                        "name": "Active",
+                                                        "value": "False",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Image",
+                                                        "value": "GI,Bm.FHD_Wormhole.2FHDWormhole",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Name",
+                                                        "value": "FHDWormholeBG",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Pos",
+                                                        "value": "0,159,5",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Size",
+                                                        "value": "53,56",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  "metadata": [
+                                                    3,
+                                                    0
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Image",
+                                                  "block": {
+                                                    "sorted": true,
+                                                    "entries": [
+                                                      {
+                                                        "name": "Active",
+                                                        "value": "False",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Image",
+                                                        "value": "GI,Bm.FHD_Wormhole.2FHDWormholeLight",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Name",
+                                                        "value": "FHDWormholeGlow",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Pos",
+                                                        "value": "23,164,4",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Size",
+                                                        "value": "21,20",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  "metadata": [
+                                                    4,
+                                                    0
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Image",
+                                                  "block": {
+                                                    "sorted": true,
+                                                    "entries": [
+                                                      {
+                                                        "name": "Active",
+                                                        "value": "False",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Image",
+                                                        "value": "GI,Bm.FHD_Wormhole.2FHDWormholeH",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "MouseBlocking",
+                                                        "value": "False",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Name",
+                                                        "value": "FHDWormholeLock",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Pos",
+                                                        "value": "12,168,2",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Size",
+                                                        "value": "17,17",
+                                                        "metadata": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  "metadata": [
+                                                    5,
+                                                    0
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Size",
+                                                  "value": "53,215",
+                                                  "metadata": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            "metadata": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      "metadata": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "metadata": [
+                                  1,
+                                  0
+                                ]
+                              }
+                            ]
+                          },
+                          "metadata": [
+                            1,
+                            0
+                          ]
+                        }
+                      ]
+                    },
+                    "metadata": [
+                      0,
+                      1
+                    ]
+                  }
+                ]
+              },
+              "metadata": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "metadata": [
+          0,
+          1
+        ]
+      }
+    ]
+  }
+}
