@@ -1,0 +1,92 @@
+{
+  "runtime_files": 11,
+  "source_derived_files": 11,
+  "byte_identical_to_upload": true,
+  "different_files": [],
+  "prebuilt_runtime_inputs_used": false,
+  "previous_release_required": false,
+  "game_required_for_build": false,
+  "dat_files": 4,
+  "gi_files": 6,
+  "gi_type": 0,
+  "gi_pixel_format": "argb8888",
+  "dll_files": 0,
+  "scr_files": 0,
+  "resource_audit": {
+    "cache_references_checked": 6,
+    "missing": []
+  },
+  "sha256": {
+    "CFG/CacheData.dat": "561dae10c9079ef35edbba983de0f485cb4dc744a858a89955214dfab1913966",
+    "CFG/Eng/Lang.dat": "7409b1b736d1d1048475a3e334522515ecec009340370fe96c1d90731152dac5",
+    "CFG/Main.dat": "c98f057e3c5c8fc23bc50425f5de34d7310716d9cd7f068b6ee784d968a54b55",
+    "CFG/Rus/Lang.dat": "81364e899282a682588a3180c87a48f7422e92bd24f9eb2c967bc1f8db171abc",
+    "DATA/FormShip2/2FHDWormhole.gi": "e34fe21e57e9526cba4d98417b0c76ae00ed97e1180dfaec186e5f12b4ef4be3",
+    "DATA/FormShip2/2FHDWormholeA.gi": "d12366d6c8aea392c1dc8d89a3316deb77d8d3e7181be4a2ab01fd1bf36ed7f4",
+    "DATA/FormShip2/2FHDWormholeD.gi": "455e3c87c263cef2f84e9a3d64757edcad3aa03a676893fdd8fe6d17a9f42062",
+    "DATA/FormShip2/2FHDWormholeH.gi": "cbc12ae96177ed7cc25d61538c2c647123113d561fef6b87193984e91974bea6",
+    "DATA/FormShip2/2FHDWormholeLight.gi": "596160d4365c2f296496dd03c5764b75c7c1a53e170a7b859ed1fd3009da2647",
+    "DATA/FormShip2/2FHDWormholeN.gi": "3ff8714f20fdb0f79d46a6675f05160c130da9b0fe331fb08ddfca283545c349",
+    "ModuleInfo.txt": "33c9ac0fdaeacc4af7e68b9adc24e9c267ce68aafdcb018550bc2e5a0468241f"
+  },
+  "package_sha256": "3d91103bb8e48366ca99d2bffa93fb7daf63ccb497cd806189f2395fdc77f530",
+  "python": "3.12.14",
+  "zlib": "1.3.2",
+  "live_game_executed": false,
+  "verified_date": "2026-10-28",
+  "input_archive": "FHD_Wormhole-v0.7.4 nativ NoDLL.rar",
+  "input_container": "ZIP",
+  "input_archive_sha256": "81b23df1aaae1ba8c9a2d2987408e8f304abe263fc961e3389b10ed9bb6cbd67",
+  "release_status": "0.7.4 NATIVE NODLL TEST, preserved from upload",
+  "unittest": {
+    "passed": 6,
+    "failed": 0
+  },
+  "behavior_checks": {
+    "kind": "JS-adapted compiled statements with controlled game API fixtures",
+    "languages": {
+      "Rus": {
+        "checks_passed": 53,
+        "game_api": "controlled fixtures",
+        "live_game_executed": false
+      },
+      "Eng": {
+        "checks_passed": 53,
+        "game_api": "controlled fixtures",
+        "live_game_executed": false
+      }
+    },
+    "live_game_executed": false,
+    "native_generation_distribution_model_rerun": false
+  },
+  "behavior_checks_total": 106,
+  "node": "v24.22.1",
+  "generation_definition_checks": {
+    "hull_probability_denominator": 7,
+    "paired_engine_priorities": [
+      0,
+      41,
+      82
+    ],
+    "extra_matches_original_except_custom_tag": true,
+    "no_OnStep_in_runtime_handler": true,
+    "no_definition_lookup_or_inventory_scan_in_UI_handler": true,
+    "OnStart_OnLoad_bootstrap_equivalent": true
+  },
+  "sector_quota_implemented": false,
+  "discovered_sector_percentage_table_implemented": false,
+  "historical_generation_model_rerun": false,
+  "historical_model_check_counts_not_reused_as_new_results": true,
+  "hosted_github_workflow_executed": false,
+  "source_preparation": [
+    "Recovered all current DAT trees and GI pixel sources.",
+    "Replaced baseline-dependent patch builder with a standalone complete builder; no 0.7.3 release needed.",
+    "Removed screenshot, historical patch folders, duplicate text exports and historical reports."
+  ],
+  "limitations": [
+    "No live game, native script compilation, renderer or actual game RNG execution.",
+    "JS fixtures use controlled API returns and item classifications; full jump/save/mod-stack behavior not established.",
+    "No new stock/distribution simulation; no fixed yearly spawn quantity claimed.",
+    "Original TEST status retained; no antivirus or moderation verdict."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "format": "cachedata",
+  "seed": 19088743,
+  "root": {
+    "entries": [
+      {
+        "kind": "block",
+        "name": "Bm",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "FHD_Wormhole",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "2FHDWormhole",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormhole.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "2FHDWormholeA",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormholeA.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "2FHDWormholeD",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormholeD.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "2FHDWormholeH",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormholeH.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "2FHDWormholeLight",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormholeLight.gi"
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "2FHDWormholeN",
+                    "value": "Mods\\FHD_MODS\\FHD_Wormhole\\DATA\\FormShip2\\2FHDWormholeN.gi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+Name=FHD_Wormhole
+Author=Prolog_D
+Conflict=
+Dependence=
+Priority=1
+Section=FHD_MODS
+SectionEng=FHD_MODS
+Languages=Rus
+SmallDescription=ver.0.7.4 NATIVE NODLL TEST
+FullDescription=Серия обычных корпусов и штатные WH-двигатели на разных уровнях технологии. Без DLL и фоновых обходов. Нативная редкость; квоты на сектор нет.
+FullDescription=Поиск: WH, wh, Wh, ЧВ, чв, Чв. Проверка в игре обязательна. Не отключать мод посреди прохождения.
+Languages=Eng
+SmallDescription=ver.0.7.4 NATIVE NODLL TEST
+FullDescription=Normal-hull series and native WH engine offers across technology levels. No DLL or background shop scans. Native rarity; no sector quota.
+FullDescription=Search: WH/ЧВ, case-insensitive. Requires in-game testing. Do not disable mid-playthrough.

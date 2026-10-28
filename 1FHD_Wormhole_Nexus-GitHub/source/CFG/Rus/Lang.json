@@ -1,0 +1,2146 @@
+{
+  "format": "blockpar",
+  "seed": 19088743,
+  "root": {
+    "entries": [
+      {
+        "kind": "block",
+        "name": "HullType",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "FHD_WormholeSeries",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Artefact",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Def",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Droid",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Forsage",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Fragility",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Hook",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "Червоточина [WH/ЧВ]",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Probability",
+                    "value": "7",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Race",
+                    "value": "Any",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Radar",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Scaner",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ShipType",
+                    "value": "Any",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "Редкая серия «Червоточина». Сохраняет обычный облик и базовые ячейки корпуса. Общая перезарядка: 30 дней.",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Weapon",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Year",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            }
+          ],
+          "sorted": true
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "block",
+        "name": "Items",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "Hull",
+              "value": {
+                "entries": [],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            }
+          ],
+          "sorted": true
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "block",
+        "name": "MicroModuls",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "FHD_WormholeV2_Checked",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_Checked",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Equipments",
+                    "value": "Hull",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "NonSearchable",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Priority",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Special",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "FHD_WormholeV2_Core",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Color",
+                    "value": "165,80,255",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_Core",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Equipments",
+                    "value": "Hull",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "<color=165,80,255>Функция корпуса: Червоточина.</color>",
+                    "sort_meta": [
+                      0,
+                      2
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "Особо редкая модификация оборудования. Позволяет выполнить телепортационный переход с карты галактики через Червоточину.",
+                    "sort_meta": [
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "KindGraph",
+                    "value": "A",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "Корпус «Червоточина» [WH/ЧВ]",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Priority",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Ruins",
+                    "value": "",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Special",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "Функция «Червоточина». Общая перезарядка: 30 дней.",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "FHD_WormholeV2_EngineChecked",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_EngineChecked",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Equipments",
+                    "value": "Engine",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "NonSearchable",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Priority",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Special",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "FHD_WormholeV2_EngineCore",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Color",
+                    "value": "165,80,255",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_EngineCore",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Equipments",
+                    "value": "Engine",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "<color=165,80,255>Модификация двигателя: Червоточина.</color>",
+                    "sort_meta": [
+                      0,
+                      2
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "Особо редкая модификация оборудования. Позволяет выполнить телепортационный переход с карты галактики через Червоточину.",
+                    "sort_meta": [
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "Двигатель «Червоточина» [WH/ЧВ]",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Priority",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Ruins",
+                    "value": "Any",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Special",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "Функция двигателя «Червоточина». Базовые скорость, дальность и размер не меняет. Общая перезарядка: 30 дней.",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "FHD_WormholeV2_EngineExtra0",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Color",
+                    "value": "165,80,255",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_EngineExtra0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Equipments",
+                    "value": "Engine",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "<color=165,80,255>Модификация двигателя: Червоточина.</color>",
+                    "sort_meta": [
+                      0,
+                      2
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "Особо редкая модификация оборудования. Позволяет выполнить телепортационный переход с карты галактики через Червоточину.",
+                    "sort_meta": [
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "Двигатель «Червоточина» [WH/ЧВ]",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Priority",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Ruins",
+                    "value": "Any",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Special",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "Функция двигателя «Червоточина». Базовые скорость, дальность и размер не меняет. Общая перезарядка: 30 дней.",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "FHD_WormholeV2_EngineExtra41",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Color",
+                    "value": "165,80,255",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_EngineExtra41",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Equipments",
+                    "value": "Engine",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "<color=165,80,255>Модификация двигателя: Червоточина.</color>",
+                    "sort_meta": [
+                      0,
+                      2
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "Особо редкая модификация оборудования. Позволяет выполнить телепортационный переход с карты галактики через Червоточину.",
+                    "sort_meta": [
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "Двигатель «Червоточина» [WH/ЧВ]",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Priority",
+                    "value": "41",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Ruins",
+                    "value": "Any",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Special",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "Функция двигателя «Червоточина». Базовые скорость, дальность и размер не меняет. Общая перезарядка: 30 дней.",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "FHD_WormholeV2_EngineExtra82",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Color",
+                    "value": "165,80,255",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_EngineExtra82",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Equipments",
+                    "value": "Engine",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "<color=165,80,255>Модификация двигателя: Червоточина.</color>",
+                    "sort_meta": [
+                      0,
+                      2
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "Особо редкая модификация оборудования. Позволяет выполнить телепортационный переход с карты галактики через Червоточину.",
+                    "sort_meta": [
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "Двигатель «Червоточина» [WH/ЧВ]",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Priority",
+                    "value": "82",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Ruins",
+                    "value": "Any",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Special",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "Функция двигателя «Червоточина». Базовые скорость, дальность и размер не меняет. Общая перезарядка: 30 дней.",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "FHD_WormholeV2_EngineMonthStamp",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_EngineMonthStamp",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Equipments",
+                    "value": "Engine",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "NonSearchable",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Priority",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Special",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "FHD_WormholeV2_EngineTier41",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Color",
+                    "value": "165,80,255",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_EngineTier41",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Equipments",
+                    "value": "Engine",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "<color=165,80,255>Модификация двигателя: Червоточина.</color>",
+                    "sort_meta": [
+                      0,
+                      2
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "Особо редкая модификация оборудования. Позволяет выполнить телепортационный переход с карты галактики через Червоточину.",
+                    "sort_meta": [
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "Двигатель «Червоточина» [WH/ЧВ]",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Priority",
+                    "value": "41",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Ruins",
+                    "value": "Any",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Special",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "Функция двигателя «Червоточина». Базовые скорость, дальность и размер не меняет. Общая перезарядка: 30 дней.",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "FHD_WormholeV2_EngineTier82",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Color",
+                    "value": "165,80,255",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_EngineTier82",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Equipments",
+                    "value": "Engine",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "<color=165,80,255>Модификация двигателя: Червоточина.</color>",
+                    "sort_meta": [
+                      0,
+                      2
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "ExText",
+                    "value": "Особо редкая модификация оборудования. Позволяет выполнить телепортационный переход с карты галактики через Червоточину.",
+                    "sort_meta": [
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "Двигатель «Червоточина» [WH/ЧВ]",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Priority",
+                    "value": "82",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Ruins",
+                    "value": "Any",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "100",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Special",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "Функция двигателя «Червоточина». Базовые скорость, дальность и размер не меняет. Общая перезарядка: 30 дней.",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "block",
+              "name": "FHD_WormholeV2_MonthStamp",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "Cost",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CustomTag",
+                    "value": "FHD_WormholeV2_MonthStamp",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Equipments",
+                    "value": "Hull",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Name",
+                    "value": "",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "NonSearchable",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "OnPlanets",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Priority",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Size",
+                    "value": "0",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Special",
+                    "value": "1",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Text",
+                    "value": "",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            }
+          ],
+          "sorted": true
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "block",
+        "name": "Script",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "FHD_Wormhole",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "parameter",
+                    "name": "ConfigError",
+                    "value": "Ошибка конфигурации FHD_Wormhole: не найдены служебные спецакрины. Переход отменён.",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "Confirm",
+                    "value": "Открыть карту для перехода через червоточину? После подтверждённого перехода система будет недоступна 30 игровых дней. Обычное установленное оборудование получит критический износ; артефакты не пострадают.",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CooldownPrefix",
+                    "value": "Червоточина перезаряжается. Общая перезарядка корпуса и двигателя закончится через ",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "CooldownSuffix",
+                    "value": " игровых дней.",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "NativeError",
+                    "value": "Генератор FHD_Wormhole отключён: несовместимый EXE/конфликт перехватов или ошибка состояния. Код: ",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  },
+                  {
+                    "kind": "parameter",
+                    "name": "NoModule",
+                    "value": "На корабле не установлен корпус или двигатель с функцией «Червоточина».",
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            }
+          ],
+          "sorted": true
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "block",
+        "name": "ShipInfo",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "AddInfo",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "CustomInfos",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "FHDWormholeEngineMore",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "parameter",
+                                "name": "Description",
+                                "value": "NoShow",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Icon",
+                                "value": "0",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Name",
+                                "value": "",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "FHDWormholeEngineTiers",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "parameter",
+                                "name": "Description",
+                                "value": "NoShow",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Icon",
+                                "value": "0",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Name",
+                                "value": "",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "FHDWormholeRuntime",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "parameter",
+                                "name": "Description",
+                                "value": "NoShow",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Icon",
+                                "value": "0",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Name",
+                                "value": "",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "OnActCode",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "parameter",
+                                      "name": "001",
+                                      "value": "if(CurrentForm()!='Ship')exit;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "002",
+                                      "value": "int wh_core=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2)-1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "003",
+                                      "value": "int wh_eng_core=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',3)-1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "004",
+                                      "value": "int wh_series=ShipCustomShipInfoData(Player(),'FHDWormholeSeriesCache',1)-1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "005",
+                                      "value": "if(wh_core<0||wh_eng_core<0){InterfaceState('Ship','FHDWormholeBG',0);InterfaceState('Ship','FHDWormholeButton',0);InterfaceState('Ship','FHDWormholeGlow',0);InterfaceState('Ship','FHDWormholeLock',0);exit;}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "006",
+                                      "value": "dword wh_hull=ShipEqInSlot(Player(),t_Hull);",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "007",
+                                      "value": "dword wh_engine=ShipEqInSlot(Player(),t_Engine);",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "008",
+                                      "value": "int wh_has_hull=0;int wh_has_engine=0;if(wh_hull){",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "009",
+                                      "value": "if(wh_series>=0){if(HullSeries(wh_hull)==wh_series)wh_has_hull=1;}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "010",
+                                      "value": "if(EqSpecial(wh_hull)==wh_core)wh_has_hull=1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "011",
+                                      "value": "if(ItemExtraSpecialsCountByType(wh_hull,wh_core))wh_has_hull=1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "012",
+                                      "value": "}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "013",
+                                      "value": "if(wh_engine){",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "014",
+                                      "value": "if(EqModule(wh_engine)==wh_eng_core)wh_has_engine=1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "015",
+                                      "value": "if(EqSpecial(wh_engine)==wh_eng_core)wh_has_engine=1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "016",
+                                      "value": "int wh_es=EqSpecial(wh_engine);",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "017",
+                                      "value": "int wh_em1=ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',1)-1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "018",
+                                      "value": "if(wh_em1>=0){if(wh_es==wh_em1)wh_has_engine=1;}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "019",
+                                      "value": "int wh_em2=ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',2)-1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "020",
+                                      "value": "if(wh_em2>=0){if(wh_es==wh_em2)wh_has_engine=1;}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "021",
+                                      "value": "int wh_em3=ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',3)-1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "022",
+                                      "value": "if(wh_em3>=0){if(wh_es==wh_em3)wh_has_engine=1;}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "023",
+                                      "value": "int wh_et1=ShipCustomShipInfoData(Player(),'FHDWormholeEngineTiers', 1)-1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "024",
+                                      "value": "if(wh_et1>=0){if(wh_es==wh_et1)wh_has_engine=1;}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "025",
+                                      "value": "int wh_et2=ShipCustomShipInfoData(Player(),'FHDWormholeEngineTiers', 2)-1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "026",
+                                      "value": "if(wh_et2>=0){if(wh_es==wh_et2)wh_has_engine=1;}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "027",
+                                      "value": "if(ItemExtraSpecialsCountByType(wh_engine,wh_eng_core))wh_has_engine=1;",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "028",
+                                      "value": "}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "029",
+                                      "value": "if(wh_has_hull){if(findsubstr(lowercase(Name(wh_hull)),'чв')<0)SetName(wh_hull,Name(wh_hull)+' [WH/ЧВ]');}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "030",
+                                      "value": "if(wh_has_engine){if(findsubstr(lowercase(Name(wh_engine)),'чв')<0)SetName(wh_engine,Name(wh_engine)+' [WH/ЧВ]');}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "031",
+                                      "value": "if(wh_has_hull||wh_has_engine){InterfaceState('Ship','FHDWormholeBG',1);InterfaceState('Ship','FHDWormholeButton',1);InterfaceState('Ship','FHDWormholeGlow',1);int wh_ready=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',1);if(wh_ready>CurTurn())InterfaceState('Ship','FHDWormholeLock',1);else InterfaceState('Ship','FHDWormholeLock',0);}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    {
+                                      "kind": "parameter",
+                                      "name": "032",
+                                      "value": "else{InterfaceState('Ship','FHDWormholeBG',0);InterfaceState('Ship','FHDWormholeButton',0);InterfaceState('Ship','FHDWormholeGlow',0);InterfaceState('Ship','FHDWormholeLock',0);}",
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "OnActCodeTypes",
+                                "value": "t_OnEnteringForm,t_OnReEnteringForm,t_OnPlayerChangeHull,t_OnItemEquip,t_OnItemDeEquip",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "FHDWormholeSeriesCache",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "parameter",
+                                "name": "Description",
+                                "value": "NoShow",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Icon",
+                                "value": "0",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "kind": "parameter",
+                                "name": "Name",
+                                "value": "",
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            }
+          ],
+          "sorted": true
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      }
+    ],
+    "sorted": true
+  }
+}

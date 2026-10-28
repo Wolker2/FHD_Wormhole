@@ -1,0 +1,1345 @@
+{
+  "format": "blockpar",
+  "seed": 19088743,
+  "root": {
+    "entries": [
+      {
+        "kind": "block",
+        "name": "BV",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "OnStart",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "0DayScripts",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "FHDWormholeRuntimeBootstrap",
+                          "value": "if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeRuntime')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeRuntime','NoShow');int wh_core=FindBonusByCustomTag('FHD_WormholeV2_Core');int wh_eng_core=FindBonusByCustomTag('FHD_WormholeV2_EngineCore');ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2,wh_core+1);ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',3,wh_eng_core+1);if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeSeriesCache')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeSeriesCache','NoShow');int wh_series=FindSeriesByName(CT('HullType.FHD_WormholeSeries.Name'));ShipCustomShipInfoData(Player(),'FHDWormholeSeriesCache',1,wh_series+1);if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeEngineTiers')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeEngineTiers','NoShow');int wh_et1=FindBonusByCustomTag('FHD_WormholeV2_EngineTier41');ShipCustomShipInfoData(Player(),'FHDWormholeEngineTiers',1,wh_et1+1);int wh_et2=FindBonusByCustomTag('FHD_WormholeV2_EngineTier82');ShipCustomShipInfoData(Player(),'FHDWormholeEngineTiers',2,wh_et2+1);if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeEngineMore')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeEngineMore','NoShow');int wh_em1=FindBonusByCustomTag('FHD_WormholeV2_EngineExtra0');ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',1,wh_em1+1);int wh_em2=FindBonusByCustomTag('FHD_WormholeV2_EngineExtra41');ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',2,wh_em2+1);int wh_em3=FindBonusByCustomTag('FHD_WormholeV2_EngineExtra82');ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',3,wh_em3+1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              }
+            },
+            {
+              "kind": "block",
+              "name": "OnLoad",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "FHDWormholeRuntimeBootstrap",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "parameter",
+                          "name": "001",
+                          "value": "if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeRuntime')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeRuntime','NoShow');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "002",
+                          "value": "int wh_core=FindBonusByCustomTag('FHD_WormholeV2_Core');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "003",
+                          "value": "int wh_eng_core=FindBonusByCustomTag('FHD_WormholeV2_EngineCore');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "004",
+                          "value": "ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2,wh_core+1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "005",
+                          "value": "ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',3,wh_eng_core+1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "006",
+                          "value": "if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeSeriesCache')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeSeriesCache','NoShow');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "007",
+                          "value": "int wh_series=FindSeriesByName(CT('HullType.FHD_WormholeSeries.Name'));",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "008",
+                          "value": "ShipCustomShipInfoData(Player(),'FHDWormholeSeriesCache',1,wh_series+1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "009",
+                          "value": "if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeEngineTiers')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeEngineTiers','NoShow');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "010",
+                          "value": "int wh_et1=FindBonusByCustomTag('FHD_WormholeV2_EngineTier41');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "011",
+                          "value": "ShipCustomShipInfoData(Player(),'FHDWormholeEngineTiers',1,wh_et1+1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "012",
+                          "value": "int wh_et2=FindBonusByCustomTag('FHD_WormholeV2_EngineTier82');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "013",
+                          "value": "ShipCustomShipInfoData(Player(),'FHDWormholeEngineTiers',2,wh_et2+1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "014",
+                          "value": "if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeEngineMore')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeEngineMore','NoShow');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "015",
+                          "value": "int wh_em1=FindBonusByCustomTag('FHD_WormholeV2_EngineExtra0');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "016",
+                          "value": "ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',1,wh_em1+1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "017",
+                          "value": "int wh_em2=FindBonusByCustomTag('FHD_WormholeV2_EngineExtra41');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "018",
+                          "value": "ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',2,wh_em2+1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "019",
+                          "value": "int wh_em3=FindBonusByCustomTag('FHD_WormholeV2_EngineExtra82');",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "parameter",
+                          "name": "020",
+                          "value": "ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',3,wh_em3+1);",
+                          "sort_meta": [
+                            0,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              }
+            }
+          ],
+          "sorted": false
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "block",
+        "name": "ML",
+        "value": {
+          "entries": [
+            {
+              "kind": "block",
+              "name": "Ship",
+              "value": {
+                "entries": [
+                  {
+                    "kind": "block",
+                    "name": "Panel",
+                    "value": {
+                      "entries": [
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            0,
+                            4
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  2
+                                ]
+                              },
+                              {
+                                "kind": "block",
+                                "name": "Panel",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "Panel",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "block",
+                                            "name": "FHDWormhole_UI18",
+                                            "value": {
+                                              "entries": [
+                                                {
+                                                  "kind": "block",
+                                                  "name": "Panel",
+                                                  "value": {
+                                                    "entries": [
+                                                      {
+                                                        "kind": "parameter",
+                                                        "name": "Active",
+                                                        "value": "True",
+                                                        "sort_meta": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "kind": "block",
+                                                        "name": "GraphButton",
+                                                        "value": {
+                                                          "entries": [
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Active",
+                                                              "value": "False",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "ImageDisable",
+                                                              "value": "GI,Bm.FHD_Wormhole.2FHDWormholeH",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "ImageDown",
+                                                              "value": "GI,Bm.FHD_Wormhole.2FHDWormholeD",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "ImageNormal",
+                                                              "value": "GI,Bm.FHD_Wormhole.2FHDWormholeN",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "ImageNormalA",
+                                                              "value": "GI,Bm.FHD_Wormhole.2FHDWormholeA",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Kind",
+                                                              "value": "Normal",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "KindHit",
+                                                              "value": "Rect",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "MouseBlocking",
+                                                              "value": "True",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Name",
+                                                              "value": "FHDWormholeButton",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "block",
+                                                              "name": "OnPressCode",
+                                                              "value": {
+                                                                "entries": [
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "001",
+                                                                    "value": "dword wh_hull=ShipEqInSlot(Player(),t_Hull);",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "002",
+                                                                    "value": "dword wh_engine=ShipEqInSlot(Player(),t_Engine);",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "003",
+                                                                    "value": "int wh_core=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',2)-1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "004",
+                                                                    "value": "int wh_eng_core=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',3)-1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "005",
+                                                                    "value": "int wh_series=ShipCustomShipInfoData(Player(),'FHDWormholeSeriesCache',1)-1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "006",
+                                                                    "value": "if(wh_core<0||wh_eng_core<0){MessageBox(CT('Script.FHD_Wormhole.ConfigError'));exit;}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "007",
+                                                                    "value": "int wh_has_hull=0;int wh_has_engine=0;if(wh_hull){",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "008",
+                                                                    "value": "if(wh_series>=0){if(HullSeries(wh_hull)==wh_series)wh_has_hull=1;}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "009",
+                                                                    "value": "if(EqSpecial(wh_hull)==wh_core)wh_has_hull=1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "010",
+                                                                    "value": "if(ItemExtraSpecialsCountByType(wh_hull,wh_core))wh_has_hull=1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "011",
+                                                                    "value": "}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "012",
+                                                                    "value": "if(wh_engine){",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "013",
+                                                                    "value": "if(EqModule(wh_engine)==wh_eng_core)wh_has_engine=1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "014",
+                                                                    "value": "if(EqSpecial(wh_engine)==wh_eng_core)wh_has_engine=1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "015",
+                                                                    "value": "int wh_es=EqSpecial(wh_engine);",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "016",
+                                                                    "value": "int wh_em1=ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',1)-1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "017",
+                                                                    "value": "if(wh_em1>=0){if(wh_es==wh_em1)wh_has_engine=1;}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "018",
+                                                                    "value": "int wh_em2=ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',2)-1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "019",
+                                                                    "value": "if(wh_em2>=0){if(wh_es==wh_em2)wh_has_engine=1;}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "020",
+                                                                    "value": "int wh_em3=ShipCustomShipInfoData(Player(),'FHDWormholeEngineMore',3)-1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "021",
+                                                                    "value": "if(wh_em3>=0){if(wh_es==wh_em3)wh_has_engine=1;}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "022",
+                                                                    "value": "int wh_et1=ShipCustomShipInfoData(Player(),'FHDWormholeEngineTiers', 1)-1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "023",
+                                                                    "value": "if(wh_et1>=0){if(wh_es==wh_et1)wh_has_engine=1;}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "024",
+                                                                    "value": "int wh_et2=ShipCustomShipInfoData(Player(),'FHDWormholeEngineTiers', 2)-1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "025",
+                                                                    "value": "if(wh_et2>=0){if(wh_es==wh_et2)wh_has_engine=1;}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "026",
+                                                                    "value": "if(ItemExtraSpecialsCountByType(wh_engine,wh_eng_core))wh_has_engine=1;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "027",
+                                                                    "value": "}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "028",
+                                                                    "value": "if(!wh_has_hull&&!wh_has_engine){MessageBox(CT('Script.FHD_Wormhole.NoModule'));exit;}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "029",
+                                                                    "value": "if(!ShipInNormalSpace(Player())){MessageBox(CT('FormShip.UseOnlyInSpace'));exit;}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "030",
+                                                                    "value": "if(ShipFindCustomShipInfoByType(Player(),'FHDWormholeRuntime')==-1)ShipAddCustomShipInfo(Player(),'FHDWormholeRuntime','NoShow');",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "031",
+                                                                    "value": "int wh_now=CurTurn();int wh_ready=ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',1);",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "032",
+                                                                    "value": "if(wh_ready>wh_now){MessageBox(CT('Script.FHD_Wormhole.CooldownPrefix')+(wh_ready-wh_now)+CT('Script.FHD_Wormhole.CooldownSuffix'));exit;}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "033",
+                                                                    "value": "if(!MessageBoxYesNo(CT('Script.FHD_Wormhole.Confirm')))exit;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "034",
+                                                                    "value": "int wh_old_order=ShipOrder(Player());dword wh_old_obj=ShipOrderObj(Player());",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "035",
+                                                                    "value": "RunChildForm('Galaxy');",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "036",
+                                                                    "value": "if(ShipOrder(Player())!=7)exit;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "037",
+                                                                    "value": "dword wh_new_obj=ShipOrderObj(Player());if(wh_old_order==7&&wh_new_obj==wh_old_obj)exit;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "038",
+                                                                    "value": "dword wh_tank=ShipEqInSlot(Player(),t_FuelTanks);",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "039",
+                                                                    "value": "for(int wh_i=ShipItems(Player())-1;wh_i>=1;wh_i=wh_i-1)",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "040",
+                                                                    "value": "{",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "041",
+                                                                    "value": "dword wh_item=ShipItems(Player(),wh_i);",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "042",
+                                                                    "value": "if(!wh_item)continue;if(!ItemIsInUse(wh_item))continue;if(ItemType(wh_item)<t_Hull)continue;if(ItemType(wh_item)==t_Hull)continue;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "043",
+                                                                    "value": "if(wh_item==wh_engine||wh_item==wh_tank)continue;",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "044",
+                                                                    "value": "if(ItemCanBeBroken(wh_item)){if(ItemDurability(wh_item)>1)ItemDurability(wh_item,1);}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "045",
+                                                                    "value": "}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "046",
+                                                                    "value": "if(wh_engine){if(ItemCanBeBroken(wh_engine)){if(ItemDurability(wh_engine)>10)ItemDurability(wh_engine,10);}}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "047",
+                                                                    "value": "if(wh_tank){if(ItemCanBeBroken(wh_tank)){if(ItemDurability(wh_tank)>10)ItemDurability(wh_tank,10);}}",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "048",
+                                                                    "value": "ShipCustomShipInfoData(Player(),'FHDWormholeRuntime',1,wh_now+30);",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "049",
+                                                                    "value": "InterfaceState('Ship','FHDWormholeLock',1);",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "050",
+                                                                    "value": "ShipOrderData1(Player(),1);",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "kind": "parameter",
+                                                                    "name": "051",
+                                                                    "value": "ForceNextDay();",
+                                                                    "sort_meta": [
+                                                                      0,
+                                                                      1
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "sorted": true
+                                                              },
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Pos",
+                                                              "value": "12,168,3",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Size",
+                                                              "value": "17,17",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Style",
+                                                              "value": "Style.GB.SoundNormal",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "sorted": true
+                                                        },
+                                                        "sort_meta": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "kind": "block",
+                                                        "name": "Image",
+                                                        "value": {
+                                                          "entries": [
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Active",
+                                                              "value": "False",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Image",
+                                                              "value": "GI,Bm.FHD_Wormhole.2FHDWormhole",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Name",
+                                                              "value": "FHDWormholeBG",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Pos",
+                                                              "value": "0,159,5",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Size",
+                                                              "value": "53,56",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "sorted": true
+                                                        },
+                                                        "sort_meta": [
+                                                          0,
+                                                          3
+                                                        ]
+                                                      },
+                                                      {
+                                                        "kind": "block",
+                                                        "name": "Image",
+                                                        "value": {
+                                                          "entries": [
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Active",
+                                                              "value": "False",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Image",
+                                                              "value": "GI,Bm.FHD_Wormhole.2FHDWormholeLight",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Name",
+                                                              "value": "FHDWormholeGlow",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Pos",
+                                                              "value": "23,164,4",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Size",
+                                                              "value": "21,20",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "sorted": true
+                                                        },
+                                                        "sort_meta": [
+                                                          1,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "kind": "block",
+                                                        "name": "Image",
+                                                        "value": {
+                                                          "entries": [
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Active",
+                                                              "value": "False",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Image",
+                                                              "value": "GI,Bm.FHD_Wormhole.2FHDWormholeH",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "MouseBlocking",
+                                                              "value": "False",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Name",
+                                                              "value": "FHDWormholeLock",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Pos",
+                                                              "value": "12,168,2",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            },
+                                                            {
+                                                              "kind": "parameter",
+                                                              "name": "Size",
+                                                              "value": "17,17",
+                                                              "sort_meta": [
+                                                                0,
+                                                                1
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "sorted": true
+                                                        },
+                                                        "sort_meta": [
+                                                          2,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "kind": "parameter",
+                                                        "name": "MouseBlocking",
+                                                        "value": "False",
+                                                        "sort_meta": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "kind": "parameter",
+                                                        "name": "MouseBlockingTest",
+                                                        "value": "False",
+                                                        "sort_meta": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "kind": "parameter",
+                                                        "name": "Name",
+                                                        "value": "FHDWormholePanel18",
+                                                        "sort_meta": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "kind": "parameter",
+                                                        "name": "Pos",
+                                                        "value": "6,201,-1",
+                                                        "sort_meta": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      },
+                                                      {
+                                                        "kind": "parameter",
+                                                        "name": "Size",
+                                                        "value": "53,215",
+                                                        "sort_meta": [
+                                                          0,
+                                                          1
+                                                        ]
+                                                      }
+                                                    ],
+                                                    "sorted": true
+                                                  },
+                                                  "sort_meta": [
+                                                    0,
+                                                    1
+                                                  ]
+                                                }
+                                              ],
+                                              "sorted": true
+                                            },
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  1,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            1,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            2,
+                            1
+                          ]
+                        },
+                        {
+                          "kind": "block",
+                          "name": "Panel",
+                          "value": {
+                            "entries": [
+                              {
+                                "kind": "block",
+                                "name": "FHDWormhole_ClickGuard18",
+                                "value": {
+                                  "entries": [
+                                    {
+                                      "kind": "block",
+                                      "name": "Panel",
+                                      "value": {
+                                        "entries": [
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Active",
+                                            "value": "True",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlocking",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "MouseBlockingTest",
+                                            "value": "False",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Name",
+                                            "value": "FHDWormholeHit18",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Pos",
+                                            "value": "205,406,8",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "PosAutoCorrection",
+                                            "value": "True",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "PosAutoCorrectionXCoef",
+                                            "value": "0.5",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "PosAutoCorrectionYCoef",
+                                            "value": "0.5",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "kind": "parameter",
+                                            "name": "Size",
+                                            "value": "17,17",
+                                            "sort_meta": [
+                                              0,
+                                              1
+                                            ]
+                                          }
+                                        ],
+                                        "sorted": true
+                                      },
+                                      "sort_meta": [
+                                        0,
+                                        1
+                                      ]
+                                    }
+                                  ],
+                                  "sorted": true
+                                },
+                                "sort_meta": [
+                                  0,
+                                  1
+                                ]
+                              }
+                            ],
+                            "sorted": true
+                          },
+                          "sort_meta": [
+                            3,
+                            1
+                          ]
+                        }
+                      ],
+                      "sorted": true
+                    },
+                    "sort_meta": [
+                      0,
+                      1
+                    ]
+                  }
+                ],
+                "sorted": true
+              },
+              "sort_meta": [
+                0,
+                1
+              ]
+            }
+          ],
+          "sorted": true
+        },
+        "sort_meta": [
+          0,
+          1
+        ]
+      }
+    ],
+    "sorted": true
+  }
+}
